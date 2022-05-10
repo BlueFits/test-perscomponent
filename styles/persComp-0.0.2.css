@@ -1,3 +1,51 @@
 .Pers_Component_hintbox_red {
     color : red;
 }
+.pers-8670-hint-block {
+    position: absolute;
+    width: 18em;
+    height: 5.5em;
+    display: flex;
+    top: 3.5em;
+    right: -16.5em;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+.pers-8670-cross {
+    font-size: 1.75em;
+}
+
+.pers-8670-hint-styles-container {
+    background-color: rgb(227,249,255);
+    padding: 0.7em;
+    display: flex; 
+    z-index: 2;  
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+}
+
+.pers-8670-hint-tail {
+    width: 1.5em;
+    height: 1.5em;
+    aspect-ratio: 1;
+
+    position: relative;
+    bottom: -0.5em;
+    left: 1.3em;
+    transform: rotate(45deg);
+
+    background-color: rgb(227,249,255);
+}
+
+.pers-8670-close-container {
+    width: min-content;
+}
+
+.pers-8670-hint-info-container {
+    width: fit-content;
+}
+
+.pers-8670-svg-close {
+    cursor: pointer;
+}
