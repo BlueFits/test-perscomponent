@@ -9,7 +9,7 @@
     PersComponent.prototype = {
         // 'this' refers to the calling object at execution time
         HintBox: function(h1) {
-            return '<div><h1>' + h1 + '</h1></div>'; 
+            return '<div><h1 class="Pers_Component_hintbox-red">' + h1 + '</h1></div>'; 
         },
     
     };
